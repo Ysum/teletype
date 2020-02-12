@@ -271,7 +271,7 @@ static void op_SCRIPT_POL_set(const void *NOTUSED(data), scene_state_t *ss,
     }
     else {
         uint8_t s = a - 1;
-        if (s >= TT_SCRIPT_1 && s <= TT_SCRIPT_D) {
+        if (s >= TT_SCRIPT_1 && s <= TT_SCRIPT_8) {
             ss_set_script_pol(ss, s, pol);
         }
     }
